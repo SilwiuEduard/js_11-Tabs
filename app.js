@@ -10,8 +10,8 @@ about.addEventListener("click", function (e) {
     // remove `active` from other buttons
     btns.forEach((btn) => {
       btn.classList.remove("active");
-      e.target.classList.add("active");
     });
+    e.target.classList.add("active");
     // hide other articles
     articles.forEach((article) => {
       article.classList.remove("active");
